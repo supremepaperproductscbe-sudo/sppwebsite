@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Supreme Paper Products — Sustainable Packaging</title>
+  <meta name="description" content="Supreme Paper Products — Paper tubes, composite containers and eco-friendly packaging." />
+  <style>
+    :root{
+      --white: #ffffff;
+      --orange: #ff6a00; /* brand orange */
+      --black: #0b0b0b;
+      --max-width: 1100px;
+      --radius: 12px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--white);color:var(--black);-webkit-font-smoothing:antialiased}
+    .container{max-width:var(--max-width);margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{height:56px;width:auto;border-radius:8px}
+    nav a{margin-left:18px;text-decoration:none;color:var(--black);font-weight:600}
+    nav a.cta{background:var(--orange);color:var(--white);padding:8px 14px;border-radius:8px}
+    .hero{display:grid;grid-template-columns:1fr 460px;gap:36px;align-items:center;padding:36px 0}
+    .hero h1{font-size:32px;margin:0 0 12px}
+    .hero p{margin:0 0 18px;line-height:1.5}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn.primary{background:var(--orange);color:var(--white)}
+    .card{background:#fff;border-radius:12px;padding:20px;box-shadow:0 8px 30px rgba(0,0,0,0.06)}
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
+    .product-card{border-radius:12px;padding:18px;border:1px solid rgba(11,11,11,0.06);display:flex;flex-direction:column;gap:10px}
+    .product-card h3{margin:0}
+    .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+    footer{border-top:1px solid rgba(0,0,0,0.06);padding:26px 0;margin-top:32px}
+    .flex{display:flex;gap:12px;align-items:center}
+    form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.12)}
+    .careers-list{display:grid;gap:12px}
+    .job{padding:14px;border-radius:10px;border:1px dashed rgba(0,0,0,0.06)}
+    /* responsive */
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr;}
+      nav a{margin-left:10px}
+      .brand img{height:48px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <!-- Replace src with your company logo URL (LinkedIn or uploaded hosted image) -->
+        <img src="/assets/logo.png" alt="Supreme Paper Products logo" onerror="this.style.opacity=.5" />
+        <div>
+          <div style="font-weight:800;color:var(--black)">Supreme Paper Products</div>
+          <div style="font-size:12px;color:rgba(0,0,0,0.6)">Sustainable paper tubes & composite containers</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#why">Why Supreme</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div>
+          <h1>Eco-friendly paper tubes & composite containers for modern packaging</h1>
+          <p>We design and manufacture robust paper tube containers for general-purpose secondary packing and food-safe composite containers. Made with recyclable materials and optimised for efficient packing and shipping.</p>
+          <a class="btn primary" href="#products">Explore products</a>
+        </div>
+        <div class="card">
+          <strong>Featured</strong>
+          <p style="margin:8px 0 0">Custom sizes, printing, and food-safe liners. Suitable for textiles, FMCG, snacks, and more.</p>
+          <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+            <div class="product-card"><strong>Paper Tube</strong><div style="font-size:13px;color:rgba(0,0,0,0.6)">Secondary packing, cores, textile spools</div></div>
+            <div class="product-card"><strong>Composite Container</strong><div style="font-size:13px;color:rgba(0,0,0,0.6)">Food-grade, sealed, printed</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" style="margin-top:30px">
+        <h2>Products</h2>
+        <p style="color:rgba(0,0,0,0.7)">Our main product lines — engineered for performance and sustainability.</p>
+        <div class="products">
+          <article class="product-card">
+            <h3>Paper Tubes & Cores</h3>
+            <p>Strong, lightweight tubes for textile, industrial and shipping use. Custom lengths, diameters, and wall thicknesses available.</p>
+            <ul style="margin:0;padding-left:18px">
+              <li>Custom printing</li>
+              <li>Various grammages</li>
+              <li>Recyclable</li>
+            </ul>
+          </article>
+
+          <article class="product-card">
+            <h3>Composite Containers (Food-safe)</h3>
+            <p>Multi-layer composite cans with food-grade liners, tamper-evident lids and high-barrier options for snacks, spices and powders.</p>
+            <ul style="margin:0;padding-left:18px">
+              <li>Food-grade PE liner options</li>
+              <li>Heat-seal and peel lid options</li>
+              <li>Custom branding & sleeves</li>
+            </ul>
+          </article>
+
+          <article class="product-card">
+            <h3>Telescopic Tubes & Cans</h3>
+            <p>Two-part telescopic tubes for protective packaging and premium product presentation.</p>
+          </article>
+
+          <article class="product-card">
+            <h3>Custom Projects</h3>
+            <p>Prototyping, small batch runs and co-development for specialized requirements.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="why" style="margin-top:28px">
+        <h2>Why Supreme Paper Products</h2>
+        <div class="why-grid">
+          <div class="card">
+            <h4>1. Sustainability-first</h4>
+            <p>Materials and processes chosen to minimise carbon footprint and maximise recyclability.</p>
+          </div>
+          <div class="card">
+            <h4>2. Food-safe manufacturing</h4>
+            <p>Clean production lines and tested liners suitable for food contact applications.</p>
+          </div>
+          <div class="card">
+            <h4>3. Scale & flexibility</h4>
+            <p>From sample runs to high-volume production — we support scale-up and fast turnarounds.</p>
+          </div>
+          <div class="card">
+            <h4>4. Local support</h4>
+            <p>Coimbatore-based manufacturing with logistics support across India.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="careers" style="margin-top:28px">
+        <h2>Careers</h2>
+        <p>We hire production staff, quality engineers, sales & admin. Send your CV to <a href="mailto:hr@supremepaperproducts.com">hr@supremepaperproducts.com</a>.</p>
+        <div class="careers-list">
+          <div class="job"><strong>Production Operator</strong><div style="font-size:13px;color:rgba(0,0,0,0.7)">Shift-based role. Experience with converting/winding machines preferred.</div></div>
+          <div class="job"><strong>Quality Engineer</strong><div style="font-size:13px;color:rgba(0,0,0,0.7)">QA for food-safe composite lines and paper core tolerances.</div></div>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:28px">
+        <h2>Contact</h2>
+        <div style="display:grid;grid-template-columns:1fr 360px;gap:20px">
+          <div>
+            <p><strong>Head Office</strong><br/>Coimbatore, Tamil Nadu, India</p>
+            <p><strong>Email</strong><br/><a href="mailto:info@supremepaperproducts.com">info@supremepaperproducts.com</a></p>
+            <p><strong>Phone</strong><br/>+91 00 0000 0000</p>
+          </div>
+          <div class="card">
+            <form id="contactForm" onsubmit="sendContact(event)">
+              <label>Name</label>
+              <input name="name" required />
+              <label>Email</label>
+              <input name="email" type="email" required />
+              <label>Message</label>
+              <textarea name="message" rows="4" required></textarea>
+              <div style="margin-top:10px;display:flex;gap:8px">
+                <button class="btn primary" type="submit">Send</button>
+                <button type="button" onclick="resetForm()" class="btn">Reset</button>
+              </div>
+              <p id="formMsg" style="margin-top:8px;font-size:13px;color:rgba(0,0,0,0.6)"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+        <div style="font-size:14px">© <span id="year"></span> Supreme Paper Products — All rights reserved.</div>
+        <div style="font-size:13px;color:rgba(0,0,0,0.6)">Follow us on <a href="#">LinkedIn</a></div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function resetForm(){document.getElementById('contactForm').reset();document.getElementById('formMsg').textContent='';}
+    function sendContact(e){
+      e.preventDefault();
+      // Simple mailto fallback to open user's mail client with prefilled content
+      const f = e.target;
+      const subject = encodeURIComponent('Website contact from ' + f.name.value);
+      const body = encodeURIComponent('Name: '+f.name.value+'\nEmail: '+f.email.value+'\n\nMessage:\n'+f.message.value);
+      const mailto = 'mailto:info@supremepaperproducts.com?subject='+subject+'&body='+body;
+      // open mail client
+      window.location.href = mailto;
+      document.getElementById('formMsg').textContent = 'Your email client should open to send the message. If it does not, please email info@supremepaperproducts.com directly.';
+    }
+  </script>
+</body>
+</html>
